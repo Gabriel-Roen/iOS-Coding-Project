@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		028F5F431E51FCE5002701E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028F5F421E51FCE5002701E1 /* AppDelegate.swift */; };
+		028F5F451E51FCE5002701E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028F5F441E51FCE5002701E1 /* ViewController.swift */; };
+		028F5F481E51FCE5002701E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 028F5F461E51FCE5002701E1 /* Main.storyboard */; };
+		028F5F4A1E51FCE5002701E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 028F5F491E51FCE5002701E1 /* Images.xcassets */; };
+		028F5F4D1E51FCE5002701E1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 028F5F4B1E51FCE5002701E1 /* LaunchScreen.xib */; };
+		028F5F591E51FCE5002701E1 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028F5F581E51FCE5002701E1 /* TipCalculatorTests.swift */; };
+		028F5F631E51FD56002701E1 /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028F5F621E51FD56002701E1 /* TipCalculatorModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		028F5F531E51FCE5002701E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 028F5F351E51FCE5002701E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 028F5F3C1E51FCE5002701E1;
+			remoteInfo = TipCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		028F5F3D1E51FCE5002701E1 /* TipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		028F5F411E51FCE5002701E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		028F5F421E51FCE5002701E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		028F5F441E51FCE5002701E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		028F5F471E51FCE5002701E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		028F5F491E51FCE5002701E1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		028F5F4C1E51FCE5002701E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		028F5F521E51FCE5002701E1 /* TipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		028F5F571E51FCE5002701E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		028F5F581E51FCE5002701E1 /* TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTests.swift; sourceTree = "<group>"; };
+		028F5F621E51FD56002701E1 /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		028F5F3A1E51FCE5002701E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		028F5F4F1E51FCE5002701E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		028F5F341E51FCE5002701E1 = {
+			isa = PBXGroup;
+			children = (
+				028F5F621E51FD56002701E1 /* TipCalculatorModel.swift */,
+				028F5F3F1E51FCE5002701E1 /* TipCalculator */,
+				028F5F551E51FCE5002701E1 /* TipCalculatorTests */,
+				028F5F3E1E51FCE5002701E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		028F5F3E1E51FCE5002701E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				028F5F3D1E51FCE5002701E1 /* TipCalculator.app */,
+				028F5F521E51FCE5002701E1 /* TipCalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		028F5F3F1E51FCE5002701E1 /* TipCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				028F5F421E51FCE5002701E1 /* AppDelegate.swift */,
+				028F5F441E51FCE5002701E1 /* ViewController.swift */,
+				028F5F461E51FCE5002701E1 /* Main.storyboard */,
+				028F5F491E51FCE5002701E1 /* Images.xcassets */,
+				028F5F4B1E51FCE5002701E1 /* LaunchScreen.xib */,
+				028F5F401E51FCE5002701E1 /* Supporting Files */,
+			);
+			path = TipCalculator;
+			sourceTree = "<group>";
+		};
+		028F5F401E51FCE5002701E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				028F5F411E51FCE5002701E1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		028F5F551E51FCE5002701E1 /* TipCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				028F5F581E51FCE5002701E1 /* TipCalculatorTests.swift */,
+				028F5F561E51FCE5002701E1 /* Supporting Files */,
+			);
+			path = TipCalculatorTests;
+			sourceTree = "<group>";
+		};
+		028F5F561E51FCE5002701E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				028F5F571E51FCE5002701E1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		028F5F3C1E51FCE5002701E1 /* TipCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 028F5F5C1E51FCE5002701E1 /* Build configuration list for PBXNativeTarget "TipCalculator" */;
+			buildPhases = (
+				028F5F391E51FCE5002701E1 /* Sources */,
+				028F5F3A1E51FCE5002701E1 /* Frameworks */,
+				028F5F3B1E51FCE5002701E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TipCalculator;
+			productName = TipCalculator;
+			productReference = 028F5F3D1E51FCE5002701E1 /* TipCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		028F5F511E51FCE5002701E1 /* TipCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 028F5F5F1E51FCE5002701E1 /* Build configuration list for PBXNativeTarget "TipCalculatorTests" */;
+			buildPhases = (
+				028F5F4E1E51FCE5002701E1 /* Sources */,
+				028F5F4F1E51FCE5002701E1 /* Frameworks */,
+				028F5F501E51FCE5002701E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				028F5F541E51FCE5002701E1 /* PBXTargetDependency */,
+			);
+			name = TipCalculatorTests;
+			productName = TipCalculatorTests;
+			productReference = 028F5F521E51FCE5002701E1 /* TipCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		028F5F351E51FCE5002701E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Treehouse;
+				TargetAttributes = {
+					028F5F3C1E51FCE5002701E1 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					028F5F511E51FCE5002701E1 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 028F5F3C1E51FCE5002701E1;
+					};
+				};
+			};
+			buildConfigurationList = 028F5F381E51FCE5002701E1 /* Build configuration list for PBXProject "TipCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 028F5F341E51FCE5002701E1;
+			productRefGroup = 028F5F3E1E51FCE5002701E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				028F5F3C1E51FCE5002701E1 /* TipCalculator */,
+				028F5F511E51FCE5002701E1 /* TipCalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		028F5F3B1E51FCE5002701E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028F5F481E51FCE5002701E1 /* Main.storyboard in Resources */,
+				028F5F4D1E51FCE5002701E1 /* LaunchScreen.xib in Resources */,
+				028F5F4A1E51FCE5002701E1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		028F5F501E51FCE5002701E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		028F5F391E51FCE5002701E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028F5F631E51FD56002701E1 /* TipCalculatorModel.swift in Sources */,
+				028F5F451E51FCE5002701E1 /* ViewController.swift in Sources */,
+				028F5F431E51FCE5002701E1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		028F5F4E1E51FCE5002701E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028F5F591E51FCE5002701E1 /* TipCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		028F5F541E51FCE5002701E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 028F5F3C1E51FCE5002701E1 /* TipCalculator */;
+			targetProxy = 028F5F531E51FCE5002701E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		028F5F461E51FCE5002701E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				028F5F471E51FCE5002701E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		028F5F4B1E51FCE5002701E1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				028F5F4C1E51FCE5002701E1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		028F5F5A1E51FCE5002701E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		028F5F5B1E51FCE5002701E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		028F5F5D1E51FCE5002701E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TipCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		028F5F5E1E51FCE5002701E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TipCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		028F5F601E51FCE5002701E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TipCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipCalculator.app/TipCalculator";
+			};
+			name = Debug;
+		};
+		028F5F611E51FCE5002701E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TipCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipCalculator.app/TipCalculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		028F5F381E51FCE5002701E1 /* Build configuration list for PBXProject "TipCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				028F5F5A1E51FCE5002701E1 /* Debug */,
+				028F5F5B1E51FCE5002701E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		028F5F5C1E51FCE5002701E1 /* Build configuration list for PBXNativeTarget "TipCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				028F5F5D1E51FCE5002701E1 /* Debug */,
+				028F5F5E1E51FCE5002701E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		028F5F5F1E51FCE5002701E1 /* Build configuration list for PBXNativeTarget "TipCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				028F5F601E51FCE5002701E1 /* Debug */,
+				028F5F611E51FCE5002701E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 028F5F351E51FCE5002701E1 /* Project object */;
+}
